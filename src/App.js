@@ -3,15 +3,15 @@ import logo from './logo.svg';
 import React from 'react';
 
 function App() {
-    let r = 'React'
+    let r = '<b>React<b/>'
     let rn = 'React Native'
     const el = (
         <div>
             Create Web & Mobile Apps<br/>
-            with <span dangerouslySetInnerHTML={{_html: r }}/> & {rn}
+            with <span dangerouslySetInnerHTML={{__html: r }}/> & {rn}
         </div>
     )
-    return el 
+    return el
 }
 
 export default App;
