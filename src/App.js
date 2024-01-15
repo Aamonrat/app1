@@ -1,6 +1,6 @@
 import React from 'react';
-import { Caculator2 } from './caculator';
+import { EventData2} from './event-data';
 
 export default function App() {
-    return <Caculator2/>
+    return <EventData2/>
 }
