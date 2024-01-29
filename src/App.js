@@ -1,6 +1,11 @@
 import React from 'react';
-import MeassageBox from './state-func';
+import {userContext} from './context'
+import Content from './context-content'
 
 export default function App() {
-    return <MeassageBox/>
+    return(
+        <userContext.Provider value = {'Tom & Pat'}>
+            <Content/>
+            </userContext.Provider>
+    ) 
 }
