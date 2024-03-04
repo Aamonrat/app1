@@ -15,7 +15,7 @@ export default function FormText(){
             if(textPswd.current.value !== textPswd2.current.value){
             textPswd.current.value = ''
             alert('รหัสผ่านทั้งสองช่องไม่ตรงกัน')
-        }
+        } 
     }
     return(
         <div className="mt-4 mx-auto p-3 rounded"
